@@ -8,7 +8,7 @@ class Post < ActiveRecord::Base
 
   def clickbait
     if title
-      unless title.include?("Won't Believe") || title.include?("Secret") || title.include?("Guess")
+      unless title.include?("Won't Believe") || title.include?("Secret") || title.include?("Guess") || title.include?("Top #{/\[[0-9]+\]/}")
         errors.add(:title, "must be clickbait")
       end
     end
