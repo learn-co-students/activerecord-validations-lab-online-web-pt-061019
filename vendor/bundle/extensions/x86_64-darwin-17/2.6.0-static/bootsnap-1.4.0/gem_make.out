@@ -1,0 +1,15 @@
+current directory: /Users/agomez/code/activerecord-validations-lab-online-web-pt-061019/vendor/bundle/gems/bootsnap-1.4.0/ext/bootsnap
+/Users/agomez/.rbenv/versions/2.6.4/bin/ruby -I /Users/agomez/.rbenv/versions/2.6.4/lib/ruby/2.6.0 -r ./siteconf20191120-55135-ogto5h.rb extconf.rb
+creating Makefile
+
+current directory: /Users/agomez/code/activerecord-validations-lab-online-web-pt-061019/vendor/bundle/gems/bootsnap-1.4.0/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/agomez/code/activerecord-validations-lab-online-web-pt-061019/vendor/bundle/gems/bootsnap-1.4.0/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/agomez/code/activerecord-validations-lab-online-web-pt-061019/vendor/bundle/gems/bootsnap-1.4.0/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20191120-55135-ojcs67/bootsnap
